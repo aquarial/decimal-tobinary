@@ -1,4 +1,4 @@
-#Decimal to binary conveters in two esoteric languages: brainf\*ck and whitespace
+## Decimal to binary conveters in two esoteric languages: brainf\*ck and whitespace
 
 Brainf\*ck ignores everything but `+-<>[],.` and whitespace ignores everything but space, tab, and newline, so I could combine them into one text file recreated below:
 
@@ -44,7 +44,7 @@ Brainf\*ck ignores everything but `+-<>[],.` and whitespace ignores everything b
     +++++++++++++++++++++++++++++++.>++++++++++++++++++++++++++++++++++++++++++++++++[-]++++++++++.
 
 
-##Brainf\*ck - https://en.wikipedia.org/wiki/Brainfuck
+### Brainf\*ck - https://en.wikipedia.org/wiki/Brainfuck
 
 base10to2.bf has the state of the program when I finished writing the bf part. The first 32 lines document what I'm using the memory cells for, the rest is the commented version of the program above.
 
@@ -62,7 +62,7 @@ The bf algorithm is:
 
 See https://en.wikipedia.org/wiki/Brainfuck#Language_design for how Brainf\*ck works. When things got hairy, I used the debugger at http://mazonka.com/brainf/bfdebug.html to figure out what went wrong.
 
-###Whitespace - https://en.wikipedia.org/wiki/Whitespace_(programming_language)
+### Whitespace - https://en.wikipedia.org/wiki/Whitespace_(programming_language)
 
 I never put comments in the whitepace code mainly because I normally used whitespace to keep my comments neat and here that would change the program. Floating words didn't look right.
 
